@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS user;
+DROP TABLE IF EXISTS post;
+
+CREATE TABLE user (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT UNIQUE NOT NULL,
+  password TEXT NOT NULL,
+  is_admin INTEGER NOT NULL
+);
+
+INSERT INTO user (username, password, is_admin) VALUES ('admin', 'pbkdf2:sha256:260000$FoUodVEsYbB93D6N$26a6f01fb41e0292ee4823f2e64ce49470ef293e088dbf7dd3b8bcc4b233bb10', 1);

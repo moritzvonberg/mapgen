@@ -1,0 +1,49 @@
+/* Fill viewport*/
+html, body
+{
+    height: 100%;
+}
+
+iframe{
+  height: 100%;
+  width: 50%;
+}
+
+/* Ensure content is below navbar */
+div.container-fluid
+{
+    /*padding-top: 56px;*/
+}
+
+
+
+/* Remove padding within column */
+div.col
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Add padding around form */
+form
+{
+    padding: 15px;
+}
+
+form#dayfilter
+{
+    padding-top: 56px;
+}
+
+.flash { margin: 1em 0; padding: 1em; background: #cae6f6; border: 1px solid #377ba8; }
+
+#currentcsv
+{
+    white-space: pre-wrap;
+    padding: 15px;
+}
+
+textarea {
+  width: 40%;
+  height: 40%;
+}

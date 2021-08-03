@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block title %}
+<title>病院の地図</title>
+{% endblock %}
+
+{% block body %}
+        <div class="container-fluid" >
+
+              <div class="row">
+                <form id="dayfilter" enctype="multipart/form-data" method="post" action="/filter">
+                    <h2>曜日</h2>
+                    <input type="checkbox" name="weekday" value="monday" id="monday">
+                    <label for="monday">月</label>
+                    <input type="checkbox" name="weekday" value="tuesday" id="tuesday">
+                    <label for="tuesday">火</label>
+                    <input type="checkbox" name="weekday" value="wednesday" id="wednesday">
+                    <label for="wednesday">水</label>
+                    <input type="checkbox" name="weekday" value="thursday" id="thursday">
+                    <label for="thursday">木</label>
+                    <input type="checkbox" name="weekday" value="friday" id="friday">
+                    <label for="friday">金</label>
+                    <input type="checkbox" name="weekday" value="saturday" id="saturday">
+                    <label for="saturday">土</label>
+                    <input type="checkbox" name="weekday" value="sunday" id="sunday">
+                    <label for="sunday">日</label>
+                    <button id="filterbutton" type="button">フィルター</button>
+                </form>
+                <script>
+                  // add an event listener to the submit button that submits an array of weekdays for the server to filter by
+                  function onDomLoaded() {
+                    document.getElementById("filterbutton").addEventListener("click", function() {
+                        const weekdays = [];
+                        $("#dayfilter input:checked").each(function() {weekdays.push($(this).val())});
+                      $.post("{{url_for('map.filter_map')}}" , ({days: weekdays}), onAjaxResponse, "json" );
+                    });
+                  }
+                  // replace the map in the iframe with a new map when we get sent the html file back from the server
+                  function onAjaxResponse(json_data) {
+
+                      let iFrame1 = document.getElementById("vaccine_map_iframe");
+                      iFrame1.contentDocument.open();
+                      iFrame1.contentDocument.write(json_data.html1);
+                      iFrame1.contentDocument.close();
+
+                      let iFrame2 = document.getElementById("pcr_map_iframe");
+                      iFrame2.contentDocument.open();
+                      iFrame2.contentDocument.write(json_data.html2);
+                      iFrame2.contentDocument.close();
+                  }
+                </script>
+              </div>
+
+
+        </div>
+        <div class="container-fluid h-75 w-100">
+            <iframe src="{{ url_for('map.default_map') }}" id="vaccine_map_iframe"></iframe>
+            <iframe src="{{ url_for('map.extra_map')}}" id="pcr_map_iframe"></iframe>
+        </div>
+{% endblock %}

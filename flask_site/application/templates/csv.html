@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+<title>CSVアップデート</title>
+{% endblock %}
+
+{% block body %}
+        <div class="container-fluid" >
+              <h2>Current CSV data</h2>
+              <br>
+              <textarea id="currentcsv" rows="20" cols="50" readonly>{{csv_content}}</textarea>
+
+        </div>
+        <div class="container-fluid">
+              <form id="csv" enctype="multipart/form-data" method="post" action="/csv">
+                  <textarea id="csvinput" rows="20" cols="50" form="csv" name="csvtext">{{csv_content}}</textarea>
+                  <br>
+                  <label for="fileupload">Upload csv as file</label>
+                  <input type="file" name="csv" id="fileupload">
+                  <br>
+                  <h2> Which CSV do you want to update?</h2>
+                  <br>
+                  <label for="vaccinecsv">Vaccine CSV</label>
+                  <input type="radio" name="csvselect" id="vaccinecsv" checked value="vaccine">
+                  <br>
+                  <label for="pcrcsv">PCR CSV</label>
+                  <input type="radio" name="csvselect" id="pcrcsv" value="pcr">
+                  <br>
+                  <input type="submit" value="Update CSV File">
+              </form>
+        </div>
+
+
+
+{% endblock %}

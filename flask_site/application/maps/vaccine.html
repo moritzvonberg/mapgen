@@ -1,0 +1,1923 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_34ab7beb3a5b4a4a9e6886b836c2eef5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_34ab7beb3a5b4a4a9e6886b836c2eef5" ></div>
+        
+</body>
+<script>    
+    
+            var map_34ab7beb3a5b4a4a9e6886b836c2eef5 = L.map(
+                "map_34ab7beb3a5b4a4a9e6886b836c2eef5",
+                {
+                    center: [34.716, 137.747887],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_46139f807d844a22a04f99629118b720 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var marker_c2a6ec432f99427ea2c257334b86186f = L.marker(
+                [34.708599, 137.747887],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_1f8c6bd3ef974e9997b0e653b2b391a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c2a6ec432f99427ea2c257334b86186f.setIcon(icon_1f8c6bd3ef974e9997b0e653b2b391a4);
+        
+    
+            marker_c2a6ec432f99427ea2c257334b86186f.bindTooltip(
+                `<div>
+                     ['賛天堂外科医院', '053-461-0355', '相生町14-15', '日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e8f1a3019414cdfb10dc2255cd01a88 = L.marker(
+                [34.772275, 137.703476],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_7e9fdf531b0e452784358bb64d26c6e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e8f1a3019414cdfb10dc2255cd01a88.setIcon(icon_7e9fdf531b0e452784358bb64d26c6e3);
+        
+    
+            marker_1e8f1a3019414cdfb10dc2255cd01a88.bindTooltip(
+                `<div>
+                     ['鈴木内科クリニック', '053-438-5255', '葵西4-20-17', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39b130ab4c2f4846bf7a2278bc2a9cdc = L.marker(
+                [34.745706, 137.723543],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_c0b689f38a394c1bb2cd7617537550bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_39b130ab4c2f4846bf7a2278bc2a9cdc.setIcon(icon_c0b689f38a394c1bb2cd7617537550bd);
+        
+    
+            marker_39b130ab4c2f4846bf7a2278bc2a9cdc.bindTooltip(
+                `<div>
+                     ['そえだ医院', '053-471-5000', '泉3-1-58', '日曜日,水曜日,土曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a44ec93aea04031b58e9cb95bd8ec3d = L.marker(
+                [34.743302, 137.719081],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_aab9ce1994714c5da814461e84b79e40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a44ec93aea04031b58e9cb95bd8ec3d.setIcon(icon_aab9ce1994714c5da814461e84b79e40);
+        
+    
+            marker_1a44ec93aea04031b58e9cb95bd8ec3d.bindTooltip(
+                `<div>
+                     ['篠田内科', '053-416-1616', '泉2-36-11', '木曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b9d2b4bc6e04f9aaaee39fe20efc13c = L.marker(
+                [34.706241, 137.735268],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_42f17ae3ab5b4d03be89d8533ba641b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6b9d2b4bc6e04f9aaaee39fe20efc13c.setIcon(icon_42f17ae3ab5b4d03be89d8533ba641b1);
+        
+    
+            marker_6b9d2b4bc6e04f9aaaee39fe20efc13c.bindTooltip(
+                `<div>
+                     ['相羽内科クリニック', '053-458-6776', '板屋町110-5', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86c3a0ffebc34db1a59102ee4c0fb9fe = L.marker(
+                [34.742839, 137.743819],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_468b6077c4894c85be53462fd0a73a42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_86c3a0ffebc34db1a59102ee4c0fb9fe.setIcon(icon_468b6077c4894c85be53462fd0a73a42);
+        
+    
+            marker_86c3a0ffebc34db1a59102ee4c0fb9fe.bindTooltip(
+                `<div>
+                     ['山下循環器クリニック', '053-416-2811', '上島5丁目12番28号', '日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_def739fb2877452b929a74a6faa76c90 = L.marker(
+                [34.741881, 137.738624],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_cd06a1a6689947228a01bf9a5bb83659 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_def739fb2877452b929a74a6faa76c90.setIcon(icon_cd06a1a6689947228a01bf9a5bb83659);
+        
+    
+            marker_def739fb2877452b929a74a6faa76c90.bindTooltip(
+                `<div>
+                     ['かしの樹クリニック', '053-416-0606', '上島6-3-41', '土曜日,水曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f72ddde978c4498b89266cc574d917c = L.marker(
+                [34.702364, 137.72208],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_6dd79839ab664dfb872b875d1e836b99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7f72ddde978c4498b89266cc574d917c.setIcon(icon_6dd79839ab664dfb872b875d1e836b99);
+        
+    
+            marker_7f72ddde978c4498b89266cc574d917c.bindTooltip(
+                `<div>
+                     ['かえで医院', '053-450-1600', '鴨江1-13-16', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_083c4e1192a7416c84cd6168a0710067 = L.marker(
+                [34.704897, 137.706862],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_a251ee3522c84ec89c4b83370beb56c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_083c4e1192a7416c84cd6168a0710067.setIcon(icon_a251ee3522c84ec89c4b83370beb56c0);
+        
+    
+            marker_083c4e1192a7416c84cd6168a0710067.bindTooltip(
+                `<div>
+                     ['たく整形外科医院', '053-453-1122', '鴨江2丁目56-5', '日曜日,水曜日,土曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85b495a0381c4c73923d2d996b06558d = L.marker(
+                [34.704159, 137.708171],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_3a0572158b464fd79855b922bc467402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85b495a0381c4c73923d2d996b06558d.setIcon(icon_3a0572158b464fd79855b922bc467402);
+        
+    
+            marker_85b495a0381c4c73923d2d996b06558d.bindTooltip(
+                `<div>
+                     ['木村敏夫内科医院', '053-452-7215', '鴨江2丁目52番29号', '日曜日,水曜日,土曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29716b5140b847a4b3962cee828f0b2a = L.marker(
+                [34.707107, 137.7203],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_1a98a71c5bb0404486867fa600523b7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_29716b5140b847a4b3962cee828f0b2a.setIcon(icon_1a98a71c5bb0404486867fa600523b7b);
+        
+    
+            marker_29716b5140b847a4b3962cee828f0b2a.bindTooltip(
+                `<div>
+                     ['木村内科消化器科クリニック', '053-453-9781', '鴨江4丁目19-23', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05f93ee4b8394243bc650f06c93858b6 = L.marker(
+                [34.703212, 137.742491],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_c83ee2dcd8054a7c8063f96156074de8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_05f93ee4b8394243bc650f06c93858b6.setIcon(icon_c83ee2dcd8054a7c8063f96156074de8);
+        
+    
+            marker_05f93ee4b8394243bc650f06c93858b6.bindTooltip(
+                `<div>
+                     ['あべクリニック', '053-458-6840', '北寺島町209-5', '日曜日  ']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_299cffc95fa64fd385554139172f07ed = L.marker(
+                [34.741965, 137.725565],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_0a270851547445d99c0cf3d11bcf5351 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_299cffc95fa64fd385554139172f07ed.setIcon(icon_0a270851547445d99c0cf3d11bcf5351);
+        
+    
+            marker_299cffc95fa64fd385554139172f07ed.bindTooltip(
+                `<div>
+                     ['まつばやしこどもクリニック', '053-412-1234', '幸1丁目15-3', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e38e19f686da4256af42822142abdc90 = L.marker(
+                [34.739544, 137.723853],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_64f5188927fe447ea24725c2cd5db278 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e38e19f686da4256af42822142abdc90.setIcon(icon_64f5188927fe447ea24725c2cd5db278);
+        
+    
+            marker_e38e19f686da4256af42822142abdc90.bindTooltip(
+                `<div>
+                     ['医療法人鶴友会 かきのきクリニック', '053-476-5500', '幸1-4-15', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_654af4b5ad334b3f9cd2583a5c321ac6 = L.marker(
+                [34.741965, 137.725565],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_54ad08c23657464b945efefb2090ac41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_654af4b5ad334b3f9cd2583a5c321ac6.setIcon(icon_54ad08c23657464b945efefb2090ac41);
+        
+    
+            marker_654af4b5ad334b3f9cd2583a5c321ac6.bindTooltip(
+                `<div>
+                     ['橘整形外科クリニック', '053-412-0550', '幸1丁目15-3', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b36631c1c394b9bbfe21ce2b9275f0d = L.marker(
+                [34.738329, 137.724802],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_b8144d8748c4449c8b685ab889bc918a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4b36631c1c394b9bbfe21ce2b9275f0d.setIcon(icon_b8144d8748c4449c8b685ab889bc918a);
+        
+    
+            marker_4b36631c1c394b9bbfe21ce2b9275f0d.bindTooltip(
+                `<div>
+                     ['泌尿器科内科三樹医院', '053-473-1662', '幸1-2-27', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1c061faffd147f592201262b48e380c = L.marker(
+                [34.745724, 137.724386],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_3de0d5bbf5f54cb898e55fd00fdbdcf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1c061faffd147f592201262b48e380c.setIcon(icon_3de0d5bbf5f54cb898e55fd00fdbdcf3);
+        
+    
+            marker_b1c061faffd147f592201262b48e380c.bindTooltip(
+                `<div>
+                     ['内山外科整形外科医院', '053-472-3161', '幸5-7-1', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2babcb04efe34aed8b08ba113c5cefc9 = L.marker(
+                [34.746028, 137.732566],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_30e67bae9fab456e9316265996dcd1a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2babcb04efe34aed8b08ba113c5cefc9.setIcon(icon_30e67bae9fab456e9316265996dcd1a6);
+        
+    
+            marker_2babcb04efe34aed8b08ba113c5cefc9.bindTooltip(
+                `<div>
+                     ['坂の上在宅医療支援医院', '053-416-2014', '幸4丁目36-2', '日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a26a312aede4157bdb70e5f3d75fe08 = L.marker(
+                [34.745604, 137.727025],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_556636c8b14e463ca7c4c788b2fe0760 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6a26a312aede4157bdb70e5f3d75fe08.setIcon(icon_556636c8b14e463ca7c4c788b2fe0760);
+        
+    
+            marker_6a26a312aede4157bdb70e5f3d75fe08.bindTooltip(
+                `<div>
+                     ['西田内科医院', '053-473-0188', '幸4ー7ー1', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75e228cc72e14782885d042a8287e2f6 = L.marker(
+                [34.712104, 137.744616],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_44b6ae911d334a07b1c361a7fd4e9fbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_75e228cc72e14782885d042a8287e2f6.setIcon(icon_44b6ae911d334a07b1c361a7fd4e9fbc);
+        
+    
+            marker_75e228cc72e14782885d042a8287e2f6.bindTooltip(
+                `<div>
+                     ['浜松佐藤町診療所', '053-465-0210', '佐藤一丁目22-22', '月曜日,水曜日,木曜日,金曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e6da50391db4879bd113f3fff2b7660 = L.marker(
+                [34.712346, 137.750098],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_c2ece1820b364fbd9b8fa47e611b8de0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7e6da50391db4879bd113f3fff2b7660.setIcon(icon_c2ece1820b364fbd9b8fa47e611b8de0);
+        
+    
+            marker_7e6da50391db4879bd113f3fff2b7660.bindTooltip(
+                `<div>
+                     ['内科リウマチ科福間クリニック', '053-411-0202', '佐藤3-7-8', '木曜日,土曜日午後,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30db97b79b324cb48f8538f709925879 = L.marker(
+                [34.706481, 137.696271],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_e03e6482b7314080afd8dd344cec8271 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_30db97b79b324cb48f8538f709925879.setIcon(icon_e03e6482b7314080afd8dd344cec8271);
+        
+    
+            marker_30db97b79b324cb48f8538f709925879.bindTooltip(
+                `<div>
+                     ['マスダクリニック', '053-448-0066', '佐鳴台3-29-22', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_461842673fad4e45b0bef3bf729cb88a = L.marker(
+                [34.701806, 137.691921],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_662e373d71ed465ea3e7f95bc7f16f24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_461842673fad4e45b0bef3bf729cb88a.setIcon(icon_662e373d71ed465ea3e7f95bc7f16f24);
+        
+    
+            marker_461842673fad4e45b0bef3bf729cb88a.bindTooltip(
+                `<div>
+                     ['栗田内科医院', '053-448-2115', '佐鳴台2-32-15', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e60f723d0e9248e5a57eed2993048682 = L.marker(
+                [34.705677, 137.701695],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_f3c8f017100e4a5b9c75654f3a3f5a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e60f723d0e9248e5a57eed2993048682.setIcon(icon_f3c8f017100e4a5b9c75654f3a3f5a30);
+        
+    
+            marker_e60f723d0e9248e5a57eed2993048682.bindTooltip(
+                `<div>
+                     ['髙平内科', '053-456-0031', '佐鳴台4-3-12', '土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6ccf4ee6147438293d541bab469eebc = L.marker(
+                [34.717719, 137.718865],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_163420069b8f403aa1e98db0bb8cdbb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b6ccf4ee6147438293d541bab469eebc.setIcon(icon_163420069b8f403aa1e98db0bb8cdbb4);
+        
+    
+            marker_b6ccf4ee6147438293d541bab469eebc.bindTooltip(
+                `<div>
+                     ['にべ医院', '053-472-8519', '鹿谷町38-7', '木曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bd68804cd344ba0a38d688dc048477a = L.marker(
+                [34.716267, 137.72053],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_88e989edd09e4b65bc8d1e8a636c34c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0bd68804cd344ba0a38d688dc048477a.setIcon(icon_88e989edd09e4b65bc8d1e8a636c34c8);
+        
+    
+            marker_0bd68804cd344ba0a38d688dc048477a.bindTooltip(
+                `<div>
+                     ['一貫堂内科消化器科医院', '053-475-1551', '鹿谷町34-32', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51e914d8a08841ac97343a9025bc6c3f = L.marker(
+                [34.718739, 137.722956],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_6b2fd61492f74dc3b872ff426db58e6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_51e914d8a08841ac97343a9025bc6c3f.setIcon(icon_6b2fd61492f74dc3b872ff426db58e6c);
+        
+    
+            marker_51e914d8a08841ac97343a9025bc6c3f.bindTooltip(
+                `<div>
+                     ['中川原内科胃腸科医院', '053-471-9176', '城北1-16-6', '水曜日,木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_795cb19db6fc464bbf7576d20e85f836 = L.marker(
+                [34.722431, 137.719492],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_ace3e77ce7094bd68192ecaea72db88c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_795cb19db6fc464bbf7576d20e85f836.setIcon(icon_ace3e77ce7094bd68192ecaea72db88c);
+        
+    
+            marker_795cb19db6fc464bbf7576d20e85f836.bindTooltip(
+                `<div>
+                     ['舘野医院', '053-471-3014', '城北2-1-20', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85aca9622ba543d5ae09e03837567d2b = L.marker(
+                [34.723427, 137.738646],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_5726e0c592cc4559a63538583429090d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85aca9622ba543d5ae09e03837567d2b.setIcon(icon_5726e0c592cc4559a63538583429090d);
+        
+    
+            marker_85aca9622ba543d5ae09e03837567d2b.bindTooltip(
+                `<div>
+                     ['七草ファミリークリニック', '053-462-7793', '新津町40-1', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a8579b1b3ad4b4d968f22640dfda582 = L.marker(
+                [34.697919, 137.72287],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_60541c47db034123b0e7471d525f0ac3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a8579b1b3ad4b4d968f22640dfda582.setIcon(icon_60541c47db034123b0e7471d525f0ac3);
+        
+    
+            marker_1a8579b1b3ad4b4d968f22640dfda582.bindTooltip(
+                `<div>
+                     ['大久保外科・消化器科医院', '053-453-4598', '菅原町16番15号', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33da604f20f748d684054a3fec480f29 = L.marker(
+                [34.72345, 137.737749],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_c00595ad648949cc98f107c7b271bc17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_33da604f20f748d684054a3fec480f29.setIcon(icon_c00595ad648949cc98f107c7b271bc17);
+        
+    
+            marker_33da604f20f748d684054a3fec480f29.bindTooltip(
+                `<div>
+                     ['丸山病院', '053-473-6721', '助信町39-10', '土曜日午後,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0894206da0c47fb89a00e1f9419f2c1 = L.marker(
+                [34.703229, 137.737158],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_e6f9387e58a54f08bd71b0903bc02a67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0894206da0c47fb89a00e1f9419f2c1.setIcon(icon_e6f9387e58a54f08bd71b0903bc02a67);
+        
+    
+            marker_a0894206da0c47fb89a00e1f9419f2c1.bindTooltip(
+                `<div>
+                     ['シティークリニック', '053-450-8666', '砂山町329-1', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_646a2535cb9147169572d1f2d80dd962 = L.marker(
+                [34.731305, 137.726778],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_be503923f32840c7a70309b0e6867d6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_646a2535cb9147169572d1f2d80dd962.setIcon(icon_be503923f32840c7a70309b0e6867d6a);
+        
+    
+            marker_646a2535cb9147169572d1f2d80dd962.bindTooltip(
+                `<div>
+                     ['冨田呼吸器アレルギー内科医院', '053-412-2222', '住吉1-41-19', '水曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bff2f909f55491c836ecb4270026e0f = L.marker(
+                [34.731305, 137.726778],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_a96c32a806c04112a701c9a59e72e018 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4bff2f909f55491c836ecb4270026e0f.setIcon(icon_a96c32a806c04112a701c9a59e72e018);
+        
+    
+            marker_4bff2f909f55491c836ecb4270026e0f.bindTooltip(
+                `<div>
+                     ['聖隷健康診断センター', '053-473-5506', '住吉2-35-8', '日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7c56c2f227d4e1286b4dfb96e11d2f0 = L.marker(
+                [34.729697, 137.726832],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_59104519477643308df27222b2270b24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d7c56c2f227d4e1286b4dfb96e11d2f0.setIcon(icon_59104519477643308df27222b2270b24);
+        
+    
+            marker_d7c56c2f227d4e1286b4dfb96e11d2f0.bindTooltip(
+                `<div>
+                     ['大石内科痛みのクリニック', '053-474-8500', '住吉2ー9ー8', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4bd90ad61484dd9a305fe2565e6c259 = L.marker(
+                [34.738899, 137.752854],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_0b44b6f0c7ba4b678470980c86a7e831 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c4bd90ad61484dd9a305fe2565e6c259.setIcon(icon_0b44b6f0c7ba4b678470980c86a7e831);
+        
+    
+            marker_c4bd90ad61484dd9a305fe2565e6c259.bindTooltip(
+                `<div>
+                     ['夏目クリニック', '053-469-1231', '早出町222-4', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13bb13db61354b709c2eeff931322150 = L.marker(
+                [34.762079, 137.708814],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_fcc925af2d3e4be7abdb4ce673567fdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_13bb13db61354b709c2eeff931322150.setIcon(icon_fcc925af2d3e4be7abdb4ce673567fdc);
+        
+    
+            marker_13bb13db61354b709c2eeff931322150.bindTooltip(
+                `<div>
+                     ['大竹内科医院', '053-437-5800', '高丘北1-33-2', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_770f48bbc1a2409aabc7c09b6af8bc1d = L.marker(
+                [34.764313, 137.698986],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_5f3879ba0859448bb7599248f483d9fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_770f48bbc1a2409aabc7c09b6af8bc1d.setIcon(icon_5f3879ba0859448bb7599248f483d9fa);
+        
+    
+            marker_770f48bbc1a2409aabc7c09b6af8bc1d.bindTooltip(
+                `<div>
+                     ['しみず内科クリニック', '053-439-6226', '高丘北3-10-16', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_715ddad346f74e9cb21fcf3926486d5b = L.marker(
+                [34.754456, 137.710588],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_8d53309bf33247b3855d766dae2bb8d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_715ddad346f74e9cb21fcf3926486d5b.setIcon(icon_8d53309bf33247b3855d766dae2bb8d7);
+        
+    
+            marker_715ddad346f74e9cb21fcf3926486d5b.bindTooltip(
+                `<div>
+                     ['いそべハートクリニック', '053-414-7000', '高丘東1-2-33', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cda64d418914eeea85bddde88056fc5 = L.marker(
+                [34.755278, 137.71286],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_849451e48dc647c7bf08ed063ff6789e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2cda64d418914eeea85bddde88056fc5.setIcon(icon_849451e48dc647c7bf08ed063ff6789e);
+        
+    
+            marker_2cda64d418914eeea85bddde88056fc5.bindTooltip(
+                `<div>
+                     ['かねだ内科・消化器科クリニック', '053-414-0888', '高丘東2丁目8-26', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cbf8fe60b4824cf3888ccb5b1a3c51dd = L.marker(
+                [34.761898, 137.699143],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_b4f6a12e137d4ed584046fa431c46455 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cbf8fe60b4824cf3888ccb5b1a3c51dd.setIcon(icon_b4f6a12e137d4ed584046fa431c46455);
+        
+    
+            marker_cbf8fe60b4824cf3888ccb5b1a3c51dd.bindTooltip(
+                `<div>
+                     ['医療法人社団 井上医院', '053-430-0520', '高丘西3-46-5', '日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f38a2d56c42f418f961f7912c06a67b0 = L.marker(
+                [34.725957, 137.735736],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_f44a2826cc1944ea98eccce5dff9c457 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f38a2d56c42f418f961f7912c06a67b0.setIcon(icon_f44a2826cc1944ea98eccce5dff9c457);
+        
+    
+            marker_f38a2d56c42f418f961f7912c06a67b0.bindTooltip(
+                `<div>
+                     ['いくた内科医院', '053-479-3500', '高林2-10-18', '水曜日,木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b5539118ff84b5dba472111f5cc2c30 = L.marker(
+                [34.72922, 137.734041],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_6ef8ce4212594e4fb21aa57518b16751 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7b5539118ff84b5dba472111f5cc2c30.setIcon(icon_6ef8ce4212594e4fb21aa57518b16751);
+        
+    
+            marker_7b5539118ff84b5dba472111f5cc2c30.bindTooltip(
+                `<div>
+                     ['すずきメディカルクリニック', '053-416-0111', '高林4-6-40', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67354621ad6144fdadff714f21c91de1 = L.marker(
+                [34.709242, 137.730324],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_51853642cc1e4a0dbcca3ee0426aa7fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_67354621ad6144fdadff714f21c91de1.setIcon(icon_51853642cc1e4a0dbcca3ee0426aa7fc);
+        
+    
+            marker_67354621ad6144fdadff714f21c91de1.bindTooltip(
+                `<div>
+                     ['矢部内科医院', '053-452-7770', '田町226-19', '土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42101a51d1624a53b3ea875cfce58db2 = L.marker(
+                [34.709588, 137.735383],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_269801955cc9409a86c0dd097f341ec3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_42101a51d1624a53b3ea875cfce58db2.setIcon(icon_269801955cc9409a86c0dd097f341ec3);
+        
+    
+            marker_42101a51d1624a53b3ea875cfce58db2.bindTooltip(
+                `<div>
+                     ['松永内科クリニック', '053-450-0560', '中央一丁目15-5', '水曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c56036d32b554475b0596943983bd0a9 = L.marker(
+                [34.708637, 137.740333],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_d870c6683e4a48aba292fb033df8108a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c56036d32b554475b0596943983bd0a9.setIcon(icon_d870c6683e4a48aba292fb033df8108a);
+        
+    
+            marker_c56036d32b554475b0596943983bd0a9.bindTooltip(
+                `<div>
+                     ['渡辺医院', '053-452-6940', '中央3-6-13', '火曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8710c60c62ec437cb0329843881ed1e8 = L.marker(
+                [34.71066, 137.737822],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_2fd44c0d6ef0418bbbb634f75b6b2d7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8710c60c62ec437cb0329843881ed1e8.setIcon(icon_2fd44c0d6ef0418bbbb634f75b6b2d7d);
+        
+    
+            marker_8710c60c62ec437cb0329843881ed1e8.bindTooltip(
+                `<div>
+                     ['つばさ内科', '053-482-8020', '中央2-9-1', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4548a0df1f1b48af92e9c69b25b4ebe5 = L.marker(
+                [34.69849, 137.737512],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_a79bd1f5a8e44340894d133705a37b4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4548a0df1f1b48af92e9c69b25b4ebe5.setIcon(icon_a79bd1f5a8e44340894d133705a37b4a);
+        
+    
+            marker_4548a0df1f1b48af92e9c69b25b4ebe5.bindTooltip(
+                `<div>
+                     ['けいクリニック', '053-453-8550', '寺島町179', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad6baa5a90364295a4b78d521c915309 = L.marker(
+                [34.698361, 137.734892],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_eace0e681ec644c78e81cf3eda727852 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ad6baa5a90364295a4b78d521c915309.setIcon(icon_eace0e681ec644c78e81cf3eda727852);
+        
+    
+            marker_ad6baa5a90364295a4b78d521c915309.bindTooltip(
+                `<div>
+                     ['ながさかハートクリニック', '053-454-1477', '寺島町1057', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_016c3c7a2cfa4812808f51ea51e1c8c2 = L.marker(
+                [34.700413, 137.741855],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_e383a35c7d1542edb84be63cc8a44162 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_016c3c7a2cfa4812808f51ea51e1c8c2.setIcon(icon_e383a35c7d1542edb84be63cc8a44162);
+        
+    
+            marker_016c3c7a2cfa4812808f51ea51e1c8c2.bindTooltip(
+                `<div>
+                     ['山本内科クリニック', '053-413-7711', '寺島町300-1', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e807284dee184e0ab94c812640107d81 = L.marker(
+                [34.722018, 137.698767],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_c85f1102fc004a66b9a3fe7a21d52d6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e807284dee184e0ab94c812640107d81.setIcon(icon_c85f1102fc004a66b9a3fe7a21d52d6c);
+        
+    
+            marker_e807284dee184e0ab94c812640107d81.bindTooltip(
+                `<div>
+                     ['きとう皮膚科', '053-475-6054', '富塚町1933-1', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12e11074c25242ebbfcc6004d0a9d4fd = L.marker(
+                [34.732236, 137.71026],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_49258cd45e4c45b3ba770bfb36ba3458 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12e11074c25242ebbfcc6004d0a9d4fd.setIcon(icon_49258cd45e4c45b3ba770bfb36ba3458);
+        
+    
+            marker_12e11074c25242ebbfcc6004d0a9d4fd.bindTooltip(
+                `<div>
+                     ['つね医院', '053-472-2500', '富塚町1547-1', '水曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_048fd1df20f848e28c07d56e88f8e6e8 = L.marker(
+                [34.724822, 137.688881],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_1c4427f0571c49dbb22efe391803ca56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_048fd1df20f848e28c07d56e88f8e6e8.setIcon(icon_1c4427f0571c49dbb22efe391803ca56);
+        
+    
+            marker_048fd1df20f848e28c07d56e88f8e6e8.bindTooltip(
+                `<div>
+                     ['橋本内科クリニック', '053-485-7200', '富塚町3780-85', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b16bdcde63ea446cba27dc230365a0be = L.marker(
+                [34.722515, 137.700436],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_7a509c4858c942cdad345b1f2236d940 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b16bdcde63ea446cba27dc230365a0be.setIcon(icon_7a509c4858c942cdad345b1f2236d940);
+        
+    
+            marker_b16bdcde63ea446cba27dc230365a0be.bindTooltip(
+                `<div>
+                     ['小林内科・消化器内科医院', '053-474-0110', '富塚町1928-8', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f82e6dc1a514cc5992ad29d29575efe = L.marker(
+                [34.728818, 137.691114],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_3bbaf7f483c5402da45522df55f30c4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1f82e6dc1a514cc5992ad29d29575efe.setIcon(icon_3bbaf7f483c5402da45522df55f30c4f);
+        
+    
+            marker_1f82e6dc1a514cc5992ad29d29575efe.bindTooltip(
+                `<div>
+                     ['大坂内科医院', '053-472-1140', '富塚町3002-8', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0d4ee045d464eee847353e95ecbfb3f = L.marker(
+                [34.702552, 137.755889],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_071199f01d4541659f4b1f981cac6c7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d0d4ee045d464eee847353e95ecbfb3f.setIcon(icon_071199f01d4541659f4b1f981cac6c7d);
+        
+    
+            marker_d0d4ee045d464eee847353e95ecbfb3f.bindTooltip(
+                `<div>
+                     ['くろいし内科クリニック', '053-411-9614', '名塚町156-1', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afeab61435ee434aa9871747e2d078d9 = L.marker(
+                [34.699553, 137.701155],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_da400ed3a1dc425482c73d3317f4a567 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_afeab61435ee434aa9871747e2d078d9.setIcon(icon_da400ed3a1dc425482c73d3317f4a567);
+        
+    
+            marker_afeab61435ee434aa9871747e2d078d9.bindTooltip(
+                `<div>
+                     ['おかやま内科', '053-456-0220', '西伊場町57-6', '土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_019bf9bf9bb8422c9c29c4d055169c39 = L.marker(
+                [34.719004, 137.711697],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_7da8340642824fcd9b6782a56cb147f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_019bf9bf9bb8422c9c29c4d055169c39.setIcon(icon_7da8340642824fcd9b6782a56cb147f0);
+        
+    
+            marker_019bf9bf9bb8422c9c29c4d055169c39.bindTooltip(
+                `<div>
+                     ['さくらクリニック', '053-452-6567', '布橋3-14-17', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0801fd1fffa45b78243c194acadbaf5 = L.marker(
+                [34.721984, 137.711797],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_7514520dd5eb47d1b11195c49ae1eb99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f0801fd1fffa45b78243c194acadbaf5.setIcon(icon_7514520dd5eb47d1b11195c49ae1eb99);
+        
+    
+            marker_f0801fd1fffa45b78243c194acadbaf5.bindTooltip(
+                `<div>
+                     ['杉浦内科', '053-471-2723', '布橋三丁目9-10', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1503e1dd1d6948f78452aa5a82d9e48c = L.marker(
+                [34.71939, 137.717864],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_cd559de1ca204c6cb17f70f8b8aacfeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1503e1dd1d6948f78452aa5a82d9e48c.setIcon(icon_cd559de1ca204c6cb17f70f8b8aacfeb);
+        
+    
+            marker_1503e1dd1d6948f78452aa5a82d9e48c.bindTooltip(
+                `<div>
+                     ['杉山循環器クリニック', '053-412-2552', '布橋2丁目12番43号', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28b0509d31294db184efcf99eff4fef6 = L.marker(
+                [34.717955, 137.738165],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_2f3ea1d40d2040208d21d098c171b569 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_28b0509d31294db184efcf99eff4fef6.setIcon(icon_2f3ea1d40d2040208d21d098c171b569);
+        
+    
+            marker_28b0509d31294db184efcf99eff4fef6.bindTooltip(
+                `<div>
+                     ['小沢内科クリニック', '053-462-3255', '野口町316', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bf917950266472e8b2cf1308b0b7abb = L.marker(
+                [34.74651, 137.736856],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_7fed3b77ef63470e8732ed78a02600fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0bf917950266472e8b2cf1308b0b7abb.setIcon(icon_7fed3b77ef63470e8732ed78a02600fa);
+        
+    
+            marker_0bf917950266472e8b2cf1308b0b7abb.bindTooltip(
+                `<div>
+                     ['松下クリニック', '053-475-5225', '萩丘4-6-9', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00596e2b86e74053b541dfe04e039a45 = L.marker(
+                [34.732961, 137.736342],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_69c25532ae44433798895d6294f0268a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_00596e2b86e74053b541dfe04e039a45.setIcon(icon_69c25532ae44433798895d6294f0268a);
+        
+    
+            marker_00596e2b86e74053b541dfe04e039a45.bindTooltip(
+                `<div>
+                     ['はやかわクリニック', '053-412-5070', '曳馬5-17-9', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d26d862c4ce4e899e7527f3838f63f5 = L.marker(
+                [34.724547, 137.744224],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_5c45a04042e94c7fa923bb1acdc2daa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1d26d862c4ce4e899e7527f3838f63f5.setIcon(icon_5c45a04042e94c7fa923bb1acdc2daa9);
+        
+    
+            marker_1d26d862c4ce4e899e7527f3838f63f5.bindTooltip(
+                `<div>
+                     ['大脇産婦人科医院', '053-411-0800', '曳馬3-3-22', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4b2c14e508144f9af333e763ca83ecc = L.marker(
+                [34.725554, 137.741933],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_3ecf0668dd7d4552baa9a82052bc07c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f4b2c14e508144f9af333e763ca83ecc.setIcon(icon_3ecf0668dd7d4552baa9a82052bc07c6);
+        
+    
+            marker_f4b2c14e508144f9af333e763ca83ecc.bindTooltip(
+                `<div>
+                     ['小島医院', '053-461-7692', '曳馬2-3-1', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57a1a0405c0d4bd099560c24b150a3e3 = L.marker(
+                [34.730304, 137.740796],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_b5d93283761c46b3bf287a78b6fe5e9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_57a1a0405c0d4bd099560c24b150a3e3.setIcon(icon_b5d93283761c46b3bf287a78b6fe5e9b);
+        
+    
+            marker_57a1a0405c0d4bd099560c24b150a3e3.bindTooltip(
+                `<div>
+                     ['野中内科ハートクリニック', '053-545-3033', '曳馬4丁目1-17', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_990b305d70e44e269d2042ea62d4b300 = L.marker(
+                [34.702511, 137.729576],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_4aa42b1232434ff1b0a5a5760dceda47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_990b305d70e44e269d2042ea62d4b300.setIcon(icon_4aa42b1232434ff1b0a5a5760dceda47);
+        
+    
+            marker_990b305d70e44e269d2042ea62d4b300.bindTooltip(
+                `<div>
+                     ['塩見内科医院', '053-452-0785', '平田町45番地', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a634c99c96e4457fb0c78839eb59d5b9 = L.marker(
+                [34.715335, 137.717695],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_f763a5e92d7449d780981868c3287c15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a634c99c96e4457fb0c78839eb59d5b9.setIcon(icon_f763a5e92d7449d780981868c3287c15);
+        
+    
+            marker_a634c99c96e4457fb0c78839eb59d5b9.bindTooltip(
+                `<div>
+                     ['長尾小児科医院', '053-453-5221', '広沢1-9-18', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ac7e0c3bc6a482ea8af455b96ea70d2 = L.marker(
+                [34.715801, 137.710797],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_9f3c17199a7b4290977aa5c81ab0208e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0ac7e0c3bc6a482ea8af455b96ea70d2.setIcon(icon_9f3c17199a7b4290977aa5c81ab0208e);
+        
+    
+            marker_0ac7e0c3bc6a482ea8af455b96ea70d2.bindTooltip(
+                `<div>
+                     ['神経科浜松病院', '053-454-5361', '広沢2丁目56番1号', '日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_675b1c388aec4df6af360c7f902f9422 = L.marker(
+                [34.717938, 137.749763],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_658b5db56f4e4db6b4eb1333f94594e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_675b1c388aec4df6af360c7f902f9422.setIcon(icon_658b5db56f4e4db6b4eb1333f94594e7);
+        
+    
+            marker_675b1c388aec4df6af360c7f902f9422.bindTooltip(
+                `<div>
+                     ['ひかり在宅クリニック', '053-461-3366', '船越町52-30', '日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_365355bc6a22441ea9aa0c720c7938fa = L.marker(
+                [34.688837, 137.730943],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_8303973ea30e497aa666a58f508e1faa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_365355bc6a22441ea9aa0c720c7938fa.setIcon(icon_8303973ea30e497aa666a58f508e1faa);
+        
+    
+            marker_365355bc6a22441ea9aa0c720c7938fa.bindTooltip(
+                `<div>
+                     ['和田医院', '053-444-5577', '南浅田2-18-38', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9aa479f08f754950a6dd39ce0792f594 = L.marker(
+                [34.7151, 137.730579],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_276d75aeaad8461c9a876c2768119251 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9aa479f08f754950a6dd39ce0792f594.setIcon(icon_276d75aeaad8461c9a876c2768119251);
+        
+    
+            marker_9aa479f08f754950a6dd39ce0792f594.bindTooltip(
+                `<div>
+                     ['宅間内科皮膚科', '053-471-3050', '山下町28', '土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d8417adf638463cb8803b72d5252d87 = L.marker(
+                [34.71067, 137.704826],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_da67cabfa5a040b797d7a374cb852aca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d8417adf638463cb8803b72d5252d87.setIcon(icon_da67cabfa5a040b797d7a374cb852aca);
+        
+    
+            marker_2d8417adf638463cb8803b72d5252d87.bindTooltip(
+                `<div>
+                     ['山手クリニック', '053-452-2803', '山手町22-14', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf9782922a684bfab507dd00cb59129d = L.marker(
+                [34.710308, 137.703816],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_956ef84abe2842e286b96871a25b72e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cf9782922a684bfab507dd00cb59129d.setIcon(icon_956ef84abe2842e286b96871a25b72e2);
+        
+    
+            marker_cf9782922a684bfab507dd00cb59129d.bindTooltip(
+                `<div>
+                     ['小島外科消化器科医院', '053-413-6636', '山手町23-12', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c06a2a77f9194d57a150461a37c8597c = L.marker(
+                [34.692632, 137.753989],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_7e05485e90b94c4b9b6d1428c95e3775 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c06a2a77f9194d57a150461a37c8597c.setIcon(icon_7e05485e90b94c4b9b6d1428c95e3775);
+        
+    
+            marker_c06a2a77f9194d57a150461a37c8597c.bindTooltip(
+                `<div>
+                     ['とみた内科', '053-441-7800', '領家3-25-6', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fe4420310884991ae08c2ae467740fd = L.marker(
+                [34.735924, 137.721932],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_6c4f4a672cfe496480966084ce14935d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9fe4420310884991ae08c2ae467740fd.setIcon(icon_6c4f4a672cfe496480966084ce14935d);
+        
+    
+            marker_9fe4420310884991ae08c2ae467740fd.bindTooltip(
+                `<div>
+                     ['むこうだか耳鼻咽喉科', '053-471-3387', '和合北1-3-68', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa4fb4efc7f84afbbc90e845dbc92649 = L.marker(
+                [34.739737, 137.715535],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_f6dcb0a175514fce8d2fe27a654650f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aa4fb4efc7f84afbbc90e845dbc92649.setIcon(icon_f6dcb0a175514fce8d2fe27a654650f6);
+        
+    
+            marker_aa4fb4efc7f84afbbc90e845dbc92649.bindTooltip(
+                `<div>
+                     ['佐藤内科医院', '053-548-0193', '和合北3-5-47', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32b3b3047cd34219b5d1537907596215 = L.marker(
+                [34.7322, 137.721817],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_5c5ca78a11324f01a80388125e305d06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32b3b3047cd34219b5d1537907596215.setIcon(icon_5c5ca78a11324f01a80388125e305d06);
+        
+    
+            marker_32b3b3047cd34219b5d1537907596215.bindTooltip(
+                `<div>
+                     ['よこたこどもクリニック', '053-475-7500', '和合町27-13', '木曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de34b08623a54492bf630fa06aecb96d = L.marker(
+                [34.731669, 137.714865],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_3c64cb5681e5427a984d199eec7d3d7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_de34b08623a54492bf630fa06aecb96d.setIcon(icon_3c64cb5681e5427a984d199eec7d3d7a);
+        
+    
+            marker_de34b08623a54492bf630fa06aecb96d.bindTooltip(
+                `<div>
+                     ['恵仁会 田中医院', '053-471-0155', '和合町11-5', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_139a69fdbbc54f88b85848ba3e81c953 = L.marker(
+                [34.741583, 137.705104],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_1f75d50be64b49c8bf89c8b13f16c985 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_139a69fdbbc54f88b85848ba3e81c953.setIcon(icon_1f75d50be64b49c8bf89c8b13f16c985);
+        
+    
+            marker_139a69fdbbc54f88b85848ba3e81c953.bindTooltip(
+                `<div>
+                     ['大場クリニック', '053-476-8500', '和合町220-2486', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c67cdb9a5d6468c9212c21f88477fd2 = L.marker(
+                [34.715898, 137.72616],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_3f6adf58274447fcbf2c0c9bade297f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c67cdb9a5d6468c9212c21f88477fd2.setIcon(icon_3f6adf58274447fcbf2c0c9bade297f5);
+        
+    
+            marker_7c67cdb9a5d6468c9212c21f88477fd2.bindTooltip(
+                `<div>
+                     ['木もれび内科クリニック', '053-474-1110', '下池川町20-1', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b1071e803464d3483232b2d703387fb = L.marker(
+                [34.720119, 137.750117],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_8a969eedc34a47a2b256bd0ad67b2b6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5b1071e803464d3483232b2d703387fb.setIcon(icon_8a969eedc34a47a2b256bd0ad67b2b6b);
+        
+    
+            marker_5b1071e803464d3483232b2d703387fb.bindTooltip(
+                `<div>
+                     ['小出胃腸科内科医院', '053-464-3000', '茄子町352-1', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25de01cfb53b4bff8f302dc8d0f2e8f9 = L.marker(
+                [34.698081, 137.731042],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_66deec5903174dcf9926b4c9b7948c66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25de01cfb53b4bff8f302dc8d0f2e8f9.setIcon(icon_66deec5903174dcf9926b4c9b7948c66);
+        
+    
+            marker_25de01cfb53b4bff8f302dc8d0f2e8f9.bindTooltip(
+                `<div>
+                     ['中島内科消化器科医院', '053-453-6516', '海老塚2-17-23', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a93bff914d674661adcb1158a7f3b726 = L.marker(
+                [34.705718, 137.754069],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_e3507f22875a4d259bdfef178cc6f8fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a93bff914d674661adcb1158a7f3b726.setIcon(icon_e3507f22875a4d259bdfef178cc6f8fc);
+        
+    
+            marker_a93bff914d674661adcb1158a7f3b726.bindTooltip(
+                `<div>
+                     ['清水クリニック', '053-467-0911', '向宿1-21-16', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_845be08ca3fc427e930f833e52a876ea = L.marker(
+                [34.750484, 137.732825],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_d5a5daafead949bfbc6ed37e76b86861 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_845be08ca3fc427e930f833e52a876ea.setIcon(icon_d5a5daafead949bfbc6ed37e76b86861);
+        
+    
+            marker_845be08ca3fc427e930f833e52a876ea.bindTooltip(
+                `<div>
+                     ['坂の上ファミリークリニック', '053-416-1164', '小豆餅4丁目4-20', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c34abf4a91714167ad1450e13bf88177 = L.marker(
+                [34.753631, 137.723691],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_94c9797040ff473f93431c4ab3acc2f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c34abf4a91714167ad1450e13bf88177.setIcon(icon_94c9797040ff473f93431c4ab3acc2f6);
+        
+    
+            marker_c34abf4a91714167ad1450e13bf88177.bindTooltip(
+                `<div>
+                     ['東漢堂内科クリニック', '053-430-1188', '小豆餅1-17-7', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fab1786f8a134bf4b866e1eac30a604f = L.marker(
+                [34.711727, 137.722552],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_fede174089294e09ad48e5cf95f48fdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fab1786f8a134bf4b866e1eac30a604f.setIcon(icon_fede174089294e09ad48e5cf95f48fdb);
+        
+    
+            marker_fab1786f8a134bf4b866e1eac30a604f.bindTooltip(
+                `<div>
+                     ['すずしろクリニック', '053-489-4159', '松城町200-10', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab4086f683e548cfb548ce18144cf971 = L.marker(
+                [34.691944, 137.720485],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_ad3fbce3ac644517abc5fae72c313a00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ab4086f683e548cfb548ce18144cf971.setIcon(icon_ad3fbce3ac644517abc5fae72c313a00);
+        
+    
+            marker_ab4086f683e548cfb548ce18144cf971.bindTooltip(
+                `<div>
+                     ['たなか内科クリニック', '053-444-3001', '神田町360-27', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38fc6938d61249ed85f24265bd19360b = L.marker(
+                [34.699763, 137.724306],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_1e82df0c5842436ab03cd0c3f761062d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_38fc6938d61249ed85f24265bd19360b.setIcon(icon_1e82df0c5842436ab03cd0c3f761062d);
+        
+    
+            marker_38fc6938d61249ed85f24265bd19360b.bindTooltip(
+                `<div>
+                     ['山口内科クリニック', '053-452-4893', '東伊場1-11-2', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1662c0db0e3f4257b4c0eecab0fa57db = L.marker(
+                [34.697257, 137.717386],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_ff745af4e93e4364b7fed7b9ebb8ca9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1662c0db0e3f4257b4c0eecab0fa57db.setIcon(icon_ff745af4e93e4364b7fed7b9ebb8ca9d);
+        
+    
+            marker_1662c0db0e3f4257b4c0eecab0fa57db.bindTooltip(
+                `<div>
+                     ['さなるサンクリニック', '053-457-3221', '東伊場2-14-39', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5f78557ffbd4ced99e39a3818e5392f = L.marker(
+                [34.711312, 137.712868],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_ff0bb4916abd45eca6833ad5176aa183 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d5f78557ffbd4ced99e39a3818e5392f.setIcon(icon_ff0bb4916abd45eca6833ad5176aa183);
+        
+    
+            marker_d5f78557ffbd4ced99e39a3818e5392f.bindTooltip(
+                `<div>
+                     ['多々見クリニック', '053-455-7755', '蜆塚1-6-7', '日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7a8ecd31f874210af8ec8595f2552b6 = L.marker(
+                [34.713145, 137.707315],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_f3059d3594b143d7aa251463a2f03e44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7a8ecd31f874210af8ec8595f2552b6.setIcon(icon_f3059d3594b143d7aa251463a2f03e44);
+        
+    
+            marker_f7a8ecd31f874210af8ec8595f2552b6.bindTooltip(
+                `<div>
+                     ['かけい医院', '053-452-8418', '蜆塚3-8-5', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_311f1e82582f4028861967c38fe95134 = L.marker(
+                [34.712026, 137.702907],
+                {}
+            ).addTo(map_34ab7beb3a5b4a4a9e6886b836c2eef5);
+        
+    
+            var icon_49ea0f855fa743418096b4427f493914 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_311f1e82582f4028861967c38fe95134.setIcon(icon_49ea0f855fa743418096b4427f493914);
+        
+    
+            marker_311f1e82582f4028861967c38fe95134.bindTooltip(
+                `<div>
+                     ['北川内科医院', '053-450-6565', '蜆塚4-23-21', '木曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

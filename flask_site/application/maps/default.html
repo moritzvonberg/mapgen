@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a3940abb08ec43e695a72d97b25003cc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a3940abb08ec43e695a72d97b25003cc" ></div>
+        
+</body>
+<script>    
+    
+            var map_a3940abb08ec43e695a72d97b25003cc = L.map(
+                "map_a3940abb08ec43e695a72d97b25003cc",
+                {
+                    center: [34.716, 137.747887],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_67e08511643f41d88d276903ab880688 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a3940abb08ec43e695a72d97b25003cc);
+        
+    
+            var marker_826401bb60c348c6acfb16fbf9753f6a = L.marker(
+                [34.757544, 137.708953],
+                {}
+            ).addTo(map_a3940abb08ec43e695a72d97b25003cc);
+        
+    
+            var icon_d93b981372f14bb0bd31b51faa38b6aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_826401bb60c348c6acfb16fbf9753f6a.setIcon(icon_d93b981372f14bb0bd31b51faa38b6aa);
+        
+    
+            marker_826401bb60c348c6acfb16fbf9753f6a.bindTooltip(
+                `<div>
+                     ['チルドレンクリニック', '053-420-6111', '静岡県浜松市中区高丘東４-５-３０', '日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96058139720948d8a9aa2fdbb12631de = L.marker(
+                [34.716209, 137.701268],
+                {}
+            ).addTo(map_a3940abb08ec43e695a72d97b25003cc);
+        
+    
+            var icon_91461612254e4f7284568ce9e0856326 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_96058139720948d8a9aa2fdbb12631de.setIcon(icon_91461612254e4f7284568ce9e0856326);
+        
+    
+            marker_96058139720948d8a9aa2fdbb12631de.bindTooltip(
+                `<div>
+                     ['浜松医療センター', '053-453-7111', '静岡県浜松市中区富塚町３２８', '日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1bdc60bf5ae45ffa50f55828f81972b = L.marker(
+                [34.854836, 137.799149],
+                {}
+            ).addTo(map_a3940abb08ec43e695a72d97b25003cc);
+        
+    
+            var icon_6a8d05b8d7a44a7ea49780e4bd67fa51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f1bdc60bf5ae45ffa50f55828f81972b.setIcon(icon_6a8d05b8d7a44a7ea49780e4bd67fa51);
+        
+    
+            marker_f1bdc60bf5ae45ffa50f55828f81972b.bindTooltip(
+                `<div>
+                     ['天竜病院', '053-583-3111', '静岡県浜松市浜北区於呂４２０１-２', '土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_741e33bc4b374b6c8ff394325ee9f794 = L.marker(
+                [34.774542, 137.678548],
+                {}
+            ).addTo(map_a3940abb08ec43e695a72d97b25003cc);
+        
+    
+            var icon_9ada28abae604ae78f2737e03898579f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_741e33bc4b374b6c8ff394325ee9f794.setIcon(icon_9ada28abae604ae78f2737e03898579f);
+        
+    
+            marker_741e33bc4b374b6c8ff394325ee9f794.bindTooltip(
+                `<div>
+                     ['東山診療所', '053-414-2511', '静岡県浜松市西区大山町２８４１-１', '水曜日,土曜日,日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b7b02f1c16541038a5f89808ec1f32f = L.marker(
+                [34.792371, 137.691012],
+                {}
+            ).addTo(map_a3940abb08ec43e695a72d97b25003cc);
+        
+    
+            var icon_f8976e057fd04e3d90d596eb884f2505 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6b7b02f1c16541038a5f89808ec1f32f.setIcon(icon_f8976e057fd04e3d90d596eb884f2505);
+        
+    
+            marker_6b7b02f1c16541038a5f89808ec1f32f.bindTooltip(
+                `<div>
+                     ['聖隷三方原病院', '053-436-1251', '静岡県浜松市北区三方原町３４５３', '日曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0a9b10e350744859dfbffe036cf8aea = L.marker(
+                [34.688828, 137.731104],
+                {}
+            ).addTo(map_a3940abb08ec43e695a72d97b25003cc);
+        
+    
+            var icon_b9487d29ecec4cc79642139751aeed89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0a9b10e350744859dfbffe036cf8aea.setIcon(icon_b9487d29ecec4cc79642139751aeed89);
+        
+    
+            marker_a0a9b10e350744859dfbffe036cf8aea.bindTooltip(
+                `<div>
+                     ['智子権田のカッコイ病院だぞ', '696969696969', '〒432-8044 静岡県浜松市中区南浅田２丁目１８−38', '木曜日']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
