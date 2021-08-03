@@ -48,7 +48,8 @@ def create_app(test_config=None):
     from . import application
     app.register_blueprint(application.bp)
 
-    update_maps()
+    with app.app_context():
+        update_maps()
 
     run_with_ngrok(app)
 

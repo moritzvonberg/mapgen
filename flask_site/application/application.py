@@ -4,7 +4,7 @@ import os
 import folium
 import numpy as np
 import pandas as pd
-from flask import render_template, send_file, jsonify, request, Blueprint, flash, g
+from flask import render_template, send_file, jsonify, request, Blueprint, flash, g, current_app
 
 from .auth import login_required, admin_required
 
@@ -129,6 +129,9 @@ def update_maps():
     add_markers_to_map(vaccine_data, vaccine_map)
     add_markers_to_map(pcr_data, pcr_map)
 
+    # TODO: refactor maps to instance folder
+    # create maps directory if it doesn't exist already
+    (pathlib.Path(current_app.root_path) / 'maps').mkdir(exist_ok=True)
     # update vaccine map html file
     vaccine_map.save("application/maps/vaccine.html")
     pcr_map.save("application/maps/pcr.html")
